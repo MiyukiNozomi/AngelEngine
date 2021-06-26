@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{00601d4e-119e-4a6f-9e0d-e4db9a95d61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\InputSystem">
+      <UniqueIdentifier>{f6854490-9b64-4c47-a05c-acd78ad1bcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{0b77e42a-c989-4dbb-9f18-51d34001d1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{88a617c5-45aa-4ae2-9328-23fbc48c679c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor">
+      <UniqueIdentifier>{83d888b2-81aa-4b56-98f1-b45dd9e68c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7748ce7a-79cc-4d26-b183-277686f8a42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{64e4dfd9-7448-4c17-87c9-6b4be32d78ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyCode.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffers.h">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Vendor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngelEngine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="textures\test_character.png">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+  </ItemGroup>
+</Project>
